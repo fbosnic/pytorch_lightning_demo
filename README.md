@@ -16,5 +16,6 @@ python train.py
 
 Tensorboard logs will be available in ```./logs```. You can run tensorboard with
 ```
-tensorboard --bind-all ./logs --port 6006
+tensorboard --bind_all --logdir ./logs --port 6006
 ```
+and open it in any browser on address ```http://localhost:6006/```.
